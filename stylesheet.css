@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?clock,time,night') no-repeat center center/cover;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+#quote-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    font-size: 24px;
+    font-weight: 300;
+}
+#quote {
+    margin-bottom: 10px;
+}
+#refresh {
+    background: white;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+#refresh:hover {
+    background: black;
+    color: white;
+}
